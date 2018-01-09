@@ -3,7 +3,7 @@ from collections import deque
 from PIL import Image
 import gym
 from gym import spaces
-
+is_rec_raw_reward = True
 
 class NoopResetEnv(gym.Wrapper):
     def __init__(self, env, noop_max=30):
@@ -115,7 +115,10 @@ class MaxAndSkipEnv(gym.Wrapper):
 class ClipRewardEnv(gym.RewardWrapper):
     def _reward(self, reward):
         """Bin reward to {+1, 0, -1} by its sign."""
-        return np.sign(reward)
+        if is_rec_raw_reward == True:
+            return [np.sign(reward), reward]
+        else:
+            return np.sign(reward)
 
 class WarpFrame(gym.ObservationWrapper):
     def __init__(self, env):

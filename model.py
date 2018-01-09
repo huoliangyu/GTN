@@ -45,9 +45,10 @@ class FFPolicy(nn.Module):
         return value
 
 class CNNPolicy(FFPolicy):
+
     def __init__(self, num_inputs, action_space):
         super(CNNPolicy, self).__init__()
-
+ 
         self.final_flatten_size = []
         for m in range(gtn_M):
             if hierarchical == 0:
@@ -610,10 +611,20 @@ class CNNPolicy(FFPolicy):
 
         if both_side_tower == 0:
             self.concatenation_layer_size = sum(self.final_flatten_size)
+            #print ("self.concatenation_layer_size is {}".format(self.concatenation_layer_size))
             self.concatenation_layer = nn.Linear(self.concatenation_layer_size, 512)
-
+            #self.concatenation_layer_test = nn.Linear(28672, 512)
+            #print (self.concatenation_layer)
+            #print (sss)
+        #def xi_linear(self,x,feature_size = 1024):
+        #        
+        #    xi_linear =  nn.Linear(x.size()[1],feature_size)
+        #    return xi_linear(x)
+        #self.x_linear = xi_linear
         self.critic_linear = nn.Linear(512, 1)
-
+        self.fc0 = nn.Linear(16384,512,False)
+        self.fc1 = nn.Linear(int(16384/2),512,False)
+        self.fc2 = nn.Linear(int(16384/2/2),512,False)
         if action_space.__class__.__name__ == "Discrete":
             num_outputs = action_space.n
             self.dist = Categorical(512, num_outputs)
@@ -627,7 +638,7 @@ class CNNPolicy(FFPolicy):
         self.reset_parameters()
         if multi_gpu == 1:
             self.apply(to_data_parallel)
-
+   
     def reset_parameters(self):
         self.apply(weights_init)
 
@@ -910,6 +921,19 @@ class CNNPolicy(FFPolicy):
                 x0 = F.relu(x0)
 
             x0 = x0.view(-1, x0.size()[1]*x0.size()[2]*x0.size()[3])
+            #print ("x0 shape is {}".format(x0.size()))
+            x0 = self.fc0(x0)
+            #x0= self.x_linear(self,x0)
+            #x0_linear = LinearFeature(x0.size()[1])
+            #x0 =x0_linear.linear(x0) 
+            #print ("x0 is {}".format(x0.size()))
+            #self.x0_linear = nn.Linear(x0.size()[1],1024)
+            #print (self.x0_linear)
+            #print (ss)
+            #x0 = self.x0_linear(x0)
+            #x0 = self.x_linear(x0)
+            #print ("x0 is {}".format(x0.size()))
+            #print (sss)
 
         if gtn_M >= 2:
 
@@ -942,7 +966,9 @@ class CNNPolicy(FFPolicy):
                 x1 = F.relu(x1)
 
             x1 = x1.view(-1, x1.size()[1]*x1.size()[2]*x1.size()[3])
-
+            x1 = self.fc1(x1)
+            #print ("x1 is {}".format(x1.size()))
+            #print (ssss)
         if gtn_M >= 3:
 
             if hierarchical==0:
@@ -970,7 +996,7 @@ class CNNPolicy(FFPolicy):
                 x2 = F.relu(x2)
 
             x2 = x2.view(-1, x2.size()[1]*x2.size()[2]*x2.size()[3])
-
+            x2 = self.fc2(x2)
         if gtn_M >= 4:
 
             if hierarchical==0:
@@ -1092,7 +1118,9 @@ class CNNPolicy(FFPolicy):
                 x = x0
 
             else:
-                x = self.concatenation_layer(x0)
+                
+                #x = self.concatenation_layer(x0)
+                x = x0
                 x = F.relu(x)
 
         else:
@@ -1110,8 +1138,25 @@ class CNNPolicy(FFPolicy):
                     x = [x0,x1,x2,x3,x4]
                 else:
                     raise Exception('Not support')
-                x = self.concatenation_layer(torch.cat(x,1))
-                x = F.relu(x)
+                #print ("torch.cat(x,1) is {}".format(type(torch.cat(x,1).size()[1])))
+                #self.test_linear = nn.Linear(torch.cat(x,1).size()[1],1)
+                #x = self.test_linear(torch.cat(x,1))
+                #print ("x is {}".format(x.size()))
+                #x = self.concatenation_layer(torch.cat(x,1))
+                y = Variable( torch.ones(x0.size()[0]*x0.size()[1]).cuda())
+                for x_ in x:
+                    #print ("y is {}".format(y.size()))
+                    #print ("x_ is {}".format(x_.view(-1).size()))
+                    #print ("type y is {}".format(type(y)))
+                    #print ("type x_ is {}".format(type(x_)))
+                    y = x_.view(-1).cuda() *y
+                y = y.view(x0.size()[0],-1)
+                #print ("y is {}".format(y.size()))
+                #print (sss)
+                #print ("--------------------------------------")
+                #x2 = self.concatenation_layer_test(torch.cat(x,1))
+                #print (ss)
+                x = F.relu(y)
 
         return self.critic_linear(x), x, None #conv_list
 
@@ -1372,3 +1417,12 @@ class MLPPolicy(FFPolicy):
         x = F.tanh(x)
 
         return value, x
+class LinearFeature(CNNPolicy):
+    
+        def __init__(self,num_inputs,feature_size=1024):
+
+            super(LinearFeature, self).__init__()
+            self.x_linear = nn.Linear(num_inputs,feature_size)
+        def linear(self,x):
+    
+            return self.x_linear(x)
