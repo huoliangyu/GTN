@@ -1,0 +1,622 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A2cProcessFrame	common/atari_wrappers_deprecated.py	/^class A2cProcessFrame(gym.Wrapper):$/;"	c	inherits:gym.Wrapper
+ALREADY_INITIALIZED	common/tf_util.py	/^ALREADY_INITIALIZED = set()$/;"	v
+AddBias	utils.py	/^class AddBias(nn.Module):$/;"	c	inherits:nn.Module
+BatchInput	common/tf_util.py	/^class BatchInput(PlacholderTfInput):$/;"	c	inherits:PlacholderTfInput
+BernoulliPd	common/distributions.py	/^class BernoulliPd(Pd):$/;"	c	inherits:Pd
+BernoulliPdType	common/distributions.py	/^class BernoulliPdType(PdType):$/;"	c	inherits:PdType
+CNNPolicy	model.py	/^class CNNPolicy(FFPolicy):$/;"	c	inherits:FFPolicy
+Categorical	distributions.py	/^class Categorical(nn.Module):$/;"	c	inherits:nn.Module
+CategoricalPd	common/distributions.py	/^class CategoricalPd(Pd):$/;"	c	inherits:Pd
+CategoricalPdType	common/distributions.py	/^class CategoricalPdType(PdType):$/;"	c	inherits:PdType
+ClipRewardEnv	common/atari_wrappers.py	/^class ClipRewardEnv(gym.RewardWrapper):$/;"	c	inherits:gym.RewardWrapper
+ClippedRewardsWrapper	common/atari_wrappers_deprecated.py	/^class ClippedRewardsWrapper(gym.RewardWrapper):$/;"	c	inherits:gym.RewardWrapper
+CloudpickleWrapper	common/vec_env/subproc_vec_env.py	/^class CloudpickleWrapper(object):$/;"	c	inherits:object
+ConstantSchedule	common/schedules.py	/^class ConstantSchedule(object):$/;"	c	inherits:object
+Container	common/azure_utils.py	/^class Container(object):$/;"	c	inherits:object
+Dataset	common/dataset.py	/^class Dataset(object):$/;"	c	inherits:object
+DiagGaussian	distributions.py	/^class DiagGaussian(nn.Module):$/;"	c	inherits:nn.Module
+DiagGaussianPd	common/distributions.py	/^class DiagGaussianPd(Pd):$/;"	c	inherits:Pd
+DiagGaussianPdType	common/distributions.py	/^class DiagGaussianPdType(PdType):$/;"	c	inherits:PdType
+EXT	bench/monitor.py	/^    EXT = "monitor.json"$/;"	v	class:Monitor
+EpisodicLifeEnv	common/atari_wrappers.py	/^class EpisodicLifeEnv(gym.Wrapper):$/;"	c	inherits:gym.Wrapper
+EpisodicLifeEnv	common/atari_wrappers_deprecated.py	/^class EpisodicLifeEnv(gym.Wrapper):$/;"	c	inherits:gym.Wrapper
+EzPickle	common/misc_util.py	/^class EzPickle(object):$/;"	c	inherits:object
+FFPolicy	model.py	/^class FFPolicy(nn.Module):$/;"	c	inherits:nn.Module
+FireResetEnv	common/atari_wrappers.py	/^class FireResetEnv(gym.Wrapper):$/;"	c	inherits:gym.Wrapper
+FireResetEnv	common/atari_wrappers_deprecated.py	/^class FireResetEnv(gym.Wrapper):$/;"	c	inherits:gym.Wrapper
+FrameStack	common/atari_wrappers.py	/^class FrameStack(gym.Wrapper):$/;"	c	inherits:gym.Wrapper
+FrameStack	common/atari_wrappers_deprecated.py	/^class FrameStack(gym.Wrapper):$/;"	c	inherits:gym.Wrapper
+GetFlat	common/tf_util.py	/^class GetFlat(object):$/;"	c	inherits:object
+JSONLogger	bench/monitor.py	/^class JSONLogger(object):$/;"	c	inherits:object
+KFACOptimizer	kfac.py	/^class KFACOptimizer(optim.Optimizer):$/;"	c	inherits:optim.Optimizer
+LazyFrames	common/atari_wrappers_deprecated.py	/^class LazyFrames(object):$/;"	c	inherits:object
+LinearFeature	model.py	/^class LinearFeature(CNNPolicy):$/;"	c	inherits:CNNPolicy
+LinearSchedule	common/schedules.py	/^class LinearSchedule(object):$/;"	c	inherits:object
+LoadMonitorResultsError	bench/monitor.py	/^class LoadMonitorResultsError(Exception):$/;"	c	inherits:Exception
+MEAN_NUM	plot.py	/^MEAN_NUM = 50$/;"	v
+MESSAGE_DEPTH	common/console_util.py	/^MESSAGE_DEPTH = 0$/;"	v
+MLPPolicy	model.py	/^class MLPPolicy(FFPolicy):$/;"	c	inherits:FFPolicy
+MaxAndSkipEnv	common/atari_wrappers.py	/^class MaxAndSkipEnv(gym.Wrapper):$/;"	c	inherits:gym.Wrapper
+MaxAndSkipEnv	common/atari_wrappers_deprecated.py	/^class MaxAndSkipEnv(gym.Wrapper):$/;"	c	inherits:gym.Wrapper
+MinSegmentTree	common/segment_tree.py	/^class MinSegmentTree(SegmentTree):$/;"	c	inherits:SegmentTree
+Module	common/tf_util.py	/^class Module(object):$/;"	c	inherits:object
+Monitor	bench/monitor.py	/^class Monitor(Wrapper):$/;"	c	inherits:Wrapper
+MpiAdam	common/mpi_adam.py	/^class MpiAdam(object):$/;"	c	inherits:object
+MultiCategoricalPd	common/distributions.py	/^class MultiCategoricalPd(Pd):$/;"	c	inherits:Pd
+MultiCategoricalPdType	common/distributions.py	/^class MultiCategoricalPdType(PdType):$/;"	c	inherits:PdType
+NoopResetEnv	common/atari_wrappers.py	/^class NoopResetEnv(gym.Wrapper):$/;"	c	inherits:gym.Wrapper
+NoopResetEnv	common/atari_wrappers_deprecated.py	/^class NoopResetEnv(gym.Wrapper):$/;"	c	inherits:gym.Wrapper
+ObsNorm	running_stat.py	/^class ObsNorm(object):$/;"	c	inherits:object
+Pd	common/distributions.py	/^class Pd(object):$/;"	c	inherits:object
+PdType	common/distributions.py	/^class PdType(object):$/;"	c	inherits:object
+PiecewiseSchedule	common/schedules.py	/^class PiecewiseSchedule(object):$/;"	c	inherits:object
+PlacholderTfInput	common/tf_util.py	/^class PlacholderTfInput(TfInput):$/;"	c	inherits:TfInput
+ProcessFrame84	common/atari_wrappers_deprecated.py	/^class ProcessFrame84(gym.ObservationWrapper):$/;"	c	inherits:gym.ObservationWrapper
+RolloutStorage	storage.py	/^class RolloutStorage(object):$/;"	c	inherits:object
+RunningAvg	common/misc_util.py	/^class RunningAvg(object):$/;"	c	inherits:object
+RunningMeanStd	common/mpi_running_mean_std.py	/^class RunningMeanStd(object):$/;"	c	inherits:object
+ScaledFloatFrame	common/atari_wrappers_deprecated.py	/^class ScaledFloatFrame(gym.ObservationWrapper):$/;"	c	inherits:gym.ObservationWrapper
+Schedule	common/schedules.py	/^class Schedule(object):$/;"	c	inherits:object
+SegmentTree	common/segment_tree.py	/^class SegmentTree(object):$/;"	c	inherits:object
+SetFromFlat	common/tf_util.py	/^class SetFromFlat(object):$/;"	c	inherits:object
+SimpleMonitor	common/misc_util.py	/^class SimpleMonitor(gym.Wrapper):$/;"	c	inherits:gym.Wrapper
+SplitBias	kfac.py	/^class SplitBias(nn.Module):$/;"	c	inherits:nn.Module
+SubprocVecEnv	common/vec_env/subproc_vec_env.py	/^class SubprocVecEnv(VecEnv):$/;"	c	inherits:VecEnv
+SubprocVecEnvMt	common/vec_env/subproc_vec_env.py	/^class SubprocVecEnvMt(VecEnv):$/;"	c	inherits:VecEnv
+SumSegmentTree	common/segment_tree.py	/^class SumSegmentTree(SegmentTree):$/;"	c	inherits:SegmentTree
+TfInput	common/tf_util.py	/^class TfInput(object):$/;"	c	inherits:object
+Uint8Input	common/tf_util.py	/^class Uint8Input(PlacholderTfInput):$/;"	c	inherits:PlacholderTfInput
+VALUE_SETTERS	common/tf_util.py	/^VALUE_SETTERS = collections.OrderedDict()$/;"	v
+VARIABLES	common/tf_util.py	/^VARIABLES = {}$/;"	v
+VecEnv	common/vec_env/__init__.py	/^class VecEnv(object):$/;"	c	inherits:object
+WarpFrame	common/atari_wrappers.py	/^class WarpFrame(gym.ObservationWrapper):$/;"	c	inherits:gym.ObservationWrapper
+WrapPyTorch	envs.py	/^class WrapPyTorch(gym.ObservationWrapper):$/;"	c	inherits:gym.ObservationWrapper
+WrapperModule	common/tf_util.py	/^        class WrapperModule(Module):$/;"	c	function:module.wrapper	inherits:Module
+_ATARI_SUFFIX	bench/benchmarks.py	/^_ATARI_SUFFIX = 'NoFrameskip-v4'$/;"	v
+_BENCHMARKS	bench/benchmarks.py	/^_BENCHMARKS = []$/;"	v
+_Function	common/tf_util.py	/^class _Function(object):$/;"	c	inherits:object
+_MemFriendlyFunction	common/tf_util.py	/^class _MemFriendlyFunction(object):$/;"	c	inherits:object
+_PLACEHOLDER_CACHE	common/tf_util.py	/^_PLACEHOLDER_CACHE = {}  # name -> (placeholder, dtype, shape)$/;"	v
+__all__	bench/monitor.py	/^__all__ = ['Monitor', 'get_monitor_files', 'load_results']$/;"	v
+__array__	common/atari_wrappers_deprecated.py	/^    def __array__(self, dtype=None):$/;"	m	class:LazyFrames	file:	access:private
+__call__	common/tf_util.py	/^    def __call__(self):$/;"	m	class:GetFlat	file:	access:private
+__call__	common/tf_util.py	/^    def __call__(self, *args):$/;"	m	class:Module	file:	access:private
+__call__	common/tf_util.py	/^    def __call__(self, *args, **kwargs):$/;"	m	class:_Function	file:	access:private
+__call__	common/tf_util.py	/^    def __call__(self, *inputvals):$/;"	m	class:_MemFriendlyFunction	file:	access:private
+__call__	common/tf_util.py	/^    def __call__(self, theta):$/;"	m	class:SetFromFlat	file:	access:private
+__call__	running_stat.py	/^    def __call__(self, x):$/;"	m	class:ObsNorm	file:	access:private
+__float__	common/misc_util.py	/^    def __float__(self):$/;"	m	class:RunningAvg	file:	access:private
+__getitem__	common/segment_tree.py	/^    def __getitem__(self, idx):$/;"	m	class:SegmentTree	file:	access:private
+__getstate__	bench/monitor.py	/^    def __getstate__(self): # XXX$/;"	m	class:Monitor	file:	access:private
+__getstate__	common/misc_util.py	/^    def __getstate__(self):$/;"	m	class:EzPickle	file:	access:private
+__getstate__	common/vec_env/subproc_vec_env.py	/^    def __getstate__(self):$/;"	m	class:CloudpickleWrapper	file:	access:private
+__init__	bench/monitor.py	/^    def __init__(self, env, filename, allow_early_resets=False):$/;"	m	class:Monitor	access:public
+__init__	bench/monitor.py	/^    def __init__(self, file):$/;"	m	class:JSONLogger	access:public
+__init__	common/atari_wrappers.py	/^    def __init__(self, env):$/;"	m	class:EpisodicLifeEnv	access:public
+__init__	common/atari_wrappers.py	/^    def __init__(self, env):$/;"	m	class:FireResetEnv	access:public
+__init__	common/atari_wrappers.py	/^    def __init__(self, env):$/;"	m	class:WarpFrame	access:public
+__init__	common/atari_wrappers.py	/^    def __init__(self, env, k):$/;"	m	class:FrameStack	access:public
+__init__	common/atari_wrappers.py	/^    def __init__(self, env, noop_max=30):$/;"	m	class:NoopResetEnv	access:public
+__init__	common/atari_wrappers.py	/^    def __init__(self, env, skip=4):$/;"	m	class:MaxAndSkipEnv	access:public
+__init__	common/atari_wrappers_deprecated.py	/^    def __init__(self, env):$/;"	m	class:A2cProcessFrame	access:public
+__init__	common/atari_wrappers_deprecated.py	/^    def __init__(self, env, k):$/;"	m	class:FrameStack	access:public
+__init__	common/atari_wrappers_deprecated.py	/^    def __init__(self, env=None):$/;"	m	class:EpisodicLifeEnv	access:public
+__init__	common/atari_wrappers_deprecated.py	/^    def __init__(self, env=None):$/;"	m	class:FireResetEnv	access:public
+__init__	common/atari_wrappers_deprecated.py	/^    def __init__(self, env=None):$/;"	m	class:ProcessFrame84	access:public
+__init__	common/atari_wrappers_deprecated.py	/^    def __init__(self, env=None, noop_max=30):$/;"	m	class:NoopResetEnv	access:public
+__init__	common/atari_wrappers_deprecated.py	/^    def __init__(self, env=None, skip=4):$/;"	m	class:MaxAndSkipEnv	access:public
+__init__	common/atari_wrappers_deprecated.py	/^    def __init__(self, frames):$/;"	m	class:LazyFrames	access:public
+__init__	common/azure_utils.py	/^    def __init__(self, account_name, account_key, container_name, maybe_create=False):$/;"	m	class:Container	access:public
+__init__	common/dataset.py	/^    def __init__(self, data_map, deterministic=False, shuffle=True):$/;"	m	class:Dataset	access:public
+__init__	common/distributions.py	/^    def __init__(self, flat):$/;"	m	class:DiagGaussianPd	access:public
+__init__	common/distributions.py	/^    def __init__(self, logits):$/;"	m	class:BernoulliPd	access:public
+__init__	common/distributions.py	/^    def __init__(self, logits):$/;"	m	class:CategoricalPd	access:public
+__init__	common/distributions.py	/^    def __init__(self, low, high):$/;"	m	class:MultiCategoricalPdType	access:public
+__init__	common/distributions.py	/^    def __init__(self, low, high, flat):$/;"	m	class:MultiCategoricalPd	access:public
+__init__	common/distributions.py	/^    def __init__(self, ncat):$/;"	m	class:CategoricalPdType	access:public
+__init__	common/distributions.py	/^    def __init__(self, size):$/;"	m	class:BernoulliPdType	access:public
+__init__	common/distributions.py	/^    def __init__(self, size):$/;"	m	class:DiagGaussianPdType	access:public
+__init__	common/misc_util.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:EzPickle	access:public
+__init__	common/misc_util.py	/^    def __init__(self, env):$/;"	m	class:SimpleMonitor	access:public
+__init__	common/misc_util.py	/^    def __init__(self, gamma, init_value=None):$/;"	m	class:RunningAvg	access:public
+__init__	common/mpi_adam.py	/^    def __init__(self, var_list, *, beta1=0.9, beta2=0.999, epsilon=1e-08, scale_grad_by_procs=True, comm=None):$/;"	m	class:MpiAdam	access:public
+__init__	common/mpi_running_mean_std.py	/^    def __init__(self, epsilon=1e-2, shape=()):$/;"	m	class:RunningMeanStd	access:public
+__init__	common/schedules.py	/^    def __init__(self, endpoints, interpolation=linear_interpolation, outside_value=None):$/;"	m	class:PiecewiseSchedule	access:public
+__init__	common/schedules.py	/^    def __init__(self, schedule_timesteps, final_p, initial_p=1.0):$/;"	m	class:LinearSchedule	access:public
+__init__	common/schedules.py	/^    def __init__(self, value):$/;"	m	class:ConstantSchedule	access:public
+__init__	common/segment_tree.py	/^    def __init__(self, capacity):$/;"	m	class:MinSegmentTree	access:public
+__init__	common/segment_tree.py	/^    def __init__(self, capacity):$/;"	m	class:SumSegmentTree	access:public
+__init__	common/segment_tree.py	/^    def __init__(self, capacity, operation, neutral_element):$/;"	m	class:SegmentTree	access:public
+__init__	common/tf_util.py	/^    def __init__(self, inputs, outputs, updates, givens, check_nan=False):$/;"	m	class:_Function	access:public
+__init__	common/tf_util.py	/^    def __init__(self, name):$/;"	m	class:Module	access:public
+__init__	common/tf_util.py	/^    def __init__(self, name="(unnamed)"):$/;"	m	class:TfInput	access:public
+__init__	common/tf_util.py	/^    def __init__(self, nondata_inputs, data_inputs, outputs, batch_size):$/;"	m	class:_MemFriendlyFunction	access:public
+__init__	common/tf_util.py	/^    def __init__(self, placeholder):$/;"	m	class:PlacholderTfInput	access:public
+__init__	common/tf_util.py	/^    def __init__(self, shape, dtype=tf.float32, name=None):$/;"	m	class:BatchInput	access:public
+__init__	common/tf_util.py	/^    def __init__(self, shape, name=None):$/;"	m	class:Uint8Input	access:public
+__init__	common/tf_util.py	/^    def __init__(self, var_list):$/;"	m	class:GetFlat	access:public
+__init__	common/tf_util.py	/^    def __init__(self, var_list, dtype=tf.float32):$/;"	m	class:SetFromFlat	access:public
+__init__	common/vec_env/subproc_vec_env.py	/^    def __init__(self, env_fns):$/;"	m	class:SubprocVecEnv	access:public
+__init__	common/vec_env/subproc_vec_env.py	/^    def __init__(self, env_fns):$/;"	m	class:SubprocVecEnvMt	access:public
+__init__	common/vec_env/subproc_vec_env.py	/^    def __init__(self, x):$/;"	m	class:CloudpickleWrapper	access:public
+__init__	distributions.py	/^    def __init__(self, num_inputs, num_outputs):$/;"	m	class:Categorical	access:public
+__init__	distributions.py	/^    def __init__(self, num_inputs, num_outputs):$/;"	m	class:DiagGaussian	access:public
+__init__	envs.py	/^    def __init__(self, env=None):$/;"	m	class:WrapPyTorch	access:public
+__init__	kfac.py	/^    def __init__(self, module):$/;"	m	class:SplitBias	access:public
+__init__	kfac.py	/^    def __init__(self,$/;"	m	class:KFACOptimizer	access:public
+__init__	model.py	/^        def __init__(self,num_inputs,feature_size=1024):$/;"	m	class:LinearFeature	access:public
+__init__	model.py	/^    def __init__(self):$/;"	m	class:FFPolicy	access:public
+__init__	model.py	/^    def __init__(self, num_inputs, action_space):$/;"	m	class:CNNPolicy	access:public
+__init__	model.py	/^    def __init__(self, num_inputs, action_space):$/;"	m	class:MLPPolicy	access:public
+__init__	plot.py	/^	def __init__(self,LOGDIR,DSP,params_str, MULTI_RUN):$/;"	m	class:logger	access:public
+__init__	running_stat.py	/^    def __init__(self, shape, demean=True, destd=True, clip=10.0):$/;"	m	class:ObsNorm	access:public
+__init__	storage.py	/^    def __init__(self, num_steps, num_processes, obs_shape, action_space):$/;"	m	class:RolloutStorage	access:public
+__init__	utils.py	/^    def __init__(self, bias):$/;"	m	class:AddBias	access:public
+__setitem__	common/segment_tree.py	/^    def __setitem__(self, idx, val):$/;"	m	class:SegmentTree	file:	access:private
+__setstate__	bench/monitor.py	/^    def __setstate__(self, d):$/;"	m	class:Monitor	file:	access:private
+__setstate__	common/misc_util.py	/^    def __setstate__(self, d):$/;"	m	class:EzPickle	file:	access:private
+__setstate__	common/vec_env/subproc_vec_env.py	/^    def __setstate__(self, ob):$/;"	m	class:CloudpickleWrapper	file:	access:private
+_atari50	bench/benchmarks.py	/^_atari50 =  [ # actually 49$/;"	v
+_atari7	bench/benchmarks.py	/^_atari7 = ['BeamRider', 'Breakout', 'Enduro', 'Pong', 'Qbert', 'Seaquest', 'SpaceInvaders']$/;"	v
+_atariexpl7	bench/benchmarks.py	/^_atariexpl7 = ['Freeway', 'Gravitar', 'MontezumaRevenge', 'Pitfall', 'PrivateEye', 'Solaris', 'Venture']$/;"	v
+_call	common/tf_util.py	/^            def _call(self, *args):$/;"	m	class:module.wrapper.WrapperModule	access:public
+_call	common/tf_util.py	/^    def _call(self, *args):$/;"	m	class:Module	access:public
+_extract_patches	kfac.py	/^def _extract_patches(x, kernel_size, stride, padding):$/;"	f	access:public
+_feed_input	common/tf_util.py	/^    def _feed_input(self, feed_dict, inpt, value):$/;"	m	class:_Function	access:public
+_get_ob	common/atari_wrappers_deprecated.py	/^    def _get_ob(self):$/;"	m	class:FrameStack	access:public
+_initializer	common/tf_util.py	/^    def _initializer(shape, dtype=None, partition_info=None):  # pylint: disable=W0613$/;"	f	function:normc_initializer	access:public
+_mujocosmall	bench/benchmarks.py	/^_mujocosmall = [$/;"	v
+_observation	common/atari_wrappers.py	/^    def _observation(self):$/;"	m	class:FrameStack	access:public
+_observation	common/atari_wrappers.py	/^    def _observation(self, obs):$/;"	m	class:WarpFrame	access:public
+_observation	common/atari_wrappers_deprecated.py	/^    def _observation(self, obs):$/;"	m	class:ProcessFrame84	access:public
+_observation	common/atari_wrappers_deprecated.py	/^    def _observation(self, obs):$/;"	m	class:ScaledFloatFrame	access:public
+_observation	envs.py	/^    def _observation(self, observation):$/;"	m	class:WrapPyTorch	access:public
+_prepare_model	kfac.py	/^    def _prepare_model(self):$/;"	m	class:KFACOptimizer	access:public
+_reduce_helper	common/segment_tree.py	/^    def _reduce_helper(self, start, end, node, node_start, node_end):$/;"	m	class:SegmentTree	access:public
+_reset	common/atari_wrappers.py	/^    def _reset(self):$/;"	m	class:EpisodicLifeEnv	access:public
+_reset	common/atari_wrappers.py	/^    def _reset(self):$/;"	m	class:FireResetEnv	access:public
+_reset	common/atari_wrappers.py	/^    def _reset(self):$/;"	m	class:FrameStack	access:public
+_reset	common/atari_wrappers.py	/^    def _reset(self):$/;"	m	class:MaxAndSkipEnv	access:public
+_reset	common/atari_wrappers.py	/^    def _reset(self):$/;"	m	class:NoopResetEnv	access:public
+_reset	common/atari_wrappers_deprecated.py	/^    def _reset(self):$/;"	m	class:A2cProcessFrame	access:public
+_reset	common/atari_wrappers_deprecated.py	/^    def _reset(self):$/;"	m	class:EpisodicLifeEnv	access:public
+_reset	common/atari_wrappers_deprecated.py	/^    def _reset(self):$/;"	m	class:FireResetEnv	access:public
+_reset	common/atari_wrappers_deprecated.py	/^    def _reset(self):$/;"	m	class:FrameStack	access:public
+_reset	common/atari_wrappers_deprecated.py	/^    def _reset(self):$/;"	m	class:MaxAndSkipEnv	access:public
+_reset	common/atari_wrappers_deprecated.py	/^    def _reset(self):$/;"	m	class:NoopResetEnv	access:public
+_reset	common/misc_util.py	/^    def _reset(self):$/;"	m	class:SimpleMonitor	access:public
+_reward	common/atari_wrappers.py	/^    def _reward(self, reward):$/;"	m	class:ClipRewardEnv	access:public
+_reward	common/atari_wrappers_deprecated.py	/^    def _reward(self, reward):$/;"	m	class:ClippedRewardsWrapper	access:public
+_save_grad_output	kfac.py	/^    def _save_grad_output(self, module, grad_input, grad_output):$/;"	m	class:KFACOptimizer	access:public
+_save_input	kfac.py	/^    def _save_input(self, module, input):$/;"	m	class:KFACOptimizer	access:public
+_step	common/atari_wrappers.py	/^    def _step(self, action):$/;"	m	class:EpisodicLifeEnv	access:public
+_step	common/atari_wrappers.py	/^    def _step(self, action):$/;"	m	class:FrameStack	access:public
+_step	common/atari_wrappers.py	/^    def _step(self, action):$/;"	m	class:MaxAndSkipEnv	access:public
+_step	common/atari_wrappers_deprecated.py	/^    def _step(self, action):$/;"	m	class:A2cProcessFrame	access:public
+_step	common/atari_wrappers_deprecated.py	/^    def _step(self, action):$/;"	m	class:EpisodicLifeEnv	access:public
+_step	common/atari_wrappers_deprecated.py	/^    def _step(self, action):$/;"	m	class:FrameStack	access:public
+_step	common/atari_wrappers_deprecated.py	/^    def _step(self, action):$/;"	m	class:MaxAndSkipEnv	access:public
+_step	common/misc_util.py	/^    def _step(self, action):$/;"	m	class:SimpleMonitor	access:public
+_thunk	envs.py	/^    def _thunk():$/;"	f	function:make_env	access:public
+absolute_scope_name	common/tf_util.py	/^def absolute_scope_name(relative_scope_name):$/;"	f	access:public
+act	model.py	/^    def act(self, inputs, deterministic=False):$/;"	m	class:FFPolicy	access:public
+action_log_probs	gtn_optimize.py	/^        action_log_probs=action_log_probs,$/;"	v
+action_log_probs	gtn_optimize.py	/^    action_log_probs = action_log_probs.view(args.num_steps, num_processes_total, 1)$/;"	v
+action_log_probs	ppo_optimize.py	/^    action_log_probs = action_log_probs.view(args.num_steps, args.num_processes, 1)$/;"	v
+action_loss	gtn_optimize.py	/^            action_loss = -torch.min(surr1, surr2).mean() # PPO's pessimistic surrogate (L^CLIP)$/;"	v
+action_loss	gtn_optimize.py	/^    action_loss = -(Variable(advantages.data) * action_log_probs).mean()$/;"	v
+action_loss	ppo_optimize.py	/^            action_loss = -torch.min(surr1, surr2).mean() # PPO's pessimistic surrogate (L^CLIP)$/;"	v
+action_loss	ppo_optimize.py	/^    action_loss = -(Variable(advantages.data) * action_log_probs).mean()$/;"	v
+actions_batch	gtn_optimize.py	/^            actions_batch = rollouts.actions.view(-1, action_shape)[indices]$/;"	v
+actions_batch	ppo_optimize.py	/^            actions_batch = rollouts.actions.view(-1, action_shape)[indices]$/;"	v
+actor_critic	enjoy.py	/^        actor_critic = torch.load(os.path.join(args.load_dir, args.env_name + ".pt"))$/;"	v
+actor_critic	enjoy.py	/^actor_critic = torch.load(os.path.join(args.load_dir, args.env_name + ".pt"))$/;"	v
+adv_targ	gtn_optimize.py	/^            adv_targ = Variable(advantages.view(-1, 1)[indices])$/;"	v
+adv_targ	ppo_optimize.py	/^            adv_targ = Variable(advantages.view(-1, 1)[indices])$/;"	v
+advantages	gtn_optimize.py	/^    advantages = (advantages - advantages.mean()) \/ (advantages.std() + 1e-5)$/;"	v
+advantages	gtn_optimize.py	/^    advantages = Variable(rollouts.returns[:-1]) - values$/;"	v
+advantages	gtn_optimize.py	/^    advantages = rollouts.returns[:-1] - rollouts.value_preds[:-1]$/;"	v
+advantages	ppo_optimize.py	/^    advantages = (advantages - advantages.mean()) \/ (advantages.std() + 1e-5)$/;"	v
+advantages	ppo_optimize.py	/^    advantages = Variable(rollouts.returns[:-1]) - values$/;"	v
+advantages	ppo_optimize.py	/^    advantages = rollouts.returns[:-1] - rollouts.value_preds[:-1]$/;"	v
+afs_offset	main.py	/^afs_offset = [0.0, 0.0, 0.0, 0.0, 0.0]$/;"	v
+argmax	common/tf_util.py	/^def argmax(x, axis=None):$/;"	f	access:public
+args	enjoy.py	/^args = parser.parse_args()$/;"	v
+args	main.py	/^args = get_args()$/;"	v
+blue	common/console_util.py	/^    blue=34,$/;"	v
+boolean_flag	common/misc_util.py	/^def boolean_flag(parser, name, default=False, help=None):$/;"	f	access:public
+both_side_tower	arguments.py	/^both_side_tower = 0$/;"	v
+break_line_html	main.py	/^def break_line_html(string):$/;"	f	access:public
+categorical_sample_logits	common/tf_util.py	/^def categorical_sample_logits(X):$/;"	f	access:public
+cg	common/cg.py	/^def cg(f_Ax, b, cg_iters=10, callback=None, verbose=False, residual_tol=1e-10):$/;"	f	access:public
+check_synced	common/mpi_adam.py	/^    def check_synced(self):$/;"	m	class:MpiAdam	access:public
+checkallclose	common/mpi_running_mean_std.py	/^    def checkallclose(x,y):$/;"	f	function:test_dist	access:public
+clip	common/tf_util.py	/^clip = tf.clip_by_value$/;"	v
+close	bench/monitor.py	/^    def close(self):$/;"	m	class:Monitor	access:public
+close	common/vec_env/__init__.py	/^    def close(self):$/;"	m	class:VecEnv	access:public
+close	common/vec_env/subproc_vec_env.py	/^    def close(self):$/;"	m	class:SubprocVecEnv	access:public
+close	common/vec_env/subproc_vec_env.py	/^    def close(self):$/;"	m	class:SubprocVecEnvMt	access:public
+color2num	common/console_util.py	/^color2num = dict($/;"	v
+color_defaults	visualize.py	/^color_defaults = [$/;"	v
+colorize	common/console_util.py	/^def colorize(string, color, bold=False, highlight=False):$/;"	f	access:public
+compute_cov_a	kfac.py	/^def compute_cov_a(a, classname, layer_info, fast_cnn):$/;"	f	access:public
+compute_cov_g	kfac.py	/^def compute_cov_g(g, classname, layer_info, fast_cnn):$/;"	f	access:public
+compute_fisher	model.py	/^    def compute_fisher(self, states, num_samples=200, plot_diffs=False, disp_freq=10):$/;"	m	class:CNNPolicy	access:public
+compute_returns	storage.py	/^    def compute_returns(self, next_value, use_gae, gamma, tau):$/;"	m	class:RolloutStorage	access:public
+concatenate	common/tf_util.py	/^def concatenate(arrs, axis=0):$/;"	f	access:public
+conv2d	common/tf_util.py	/^def conv2d(x, num_filters, name, filter_size=(3, 3), stride=(1, 1), pad="SAME", dtype=tf.float32, collections=None,$/;"	f	access:public
+conv_list	gtn_optimize.py	/^        conv_list=conv_list,$/;"	v
+cpu	model.py	/^    def cpu(self, **args):$/;"	m	class:MLPPolicy	access:public
+cpu	running_stat.py	/^    def cpu(self):$/;"	m	class:ObsNorm	access:public
+cpu_actions	enjoy.py	/^    cpu_actions = action.data.cpu().numpy()$/;"	v
+crimson	common/console_util.py	/^    crimson=38$/;"	v
+cuda	model.py	/^    def cuda(self, **args):$/;"	m	class:MLPPolicy	access:public
+cuda	running_stat.py	/^    def cuda(self):$/;"	m	class:ObsNorm	access:public
+cuda	storage.py	/^    def cuda(self):$/;"	m	class:RolloutStorage	access:public
+current_state	enjoy.py	/^current_state = torch.zeros(1, *obs_shape)$/;"	v
+cyan	common/console_util.py	/^    cyan=36,$/;"	v
+dataset	arguments.py	/^    dataset = 'mt test pong'$/;"	v
+dataset	arguments.py	/^dataset = 'mt test pong'$/;"	v
+debugging	arguments.py	/^debugging = 0$/;"	v
+dense	common/tf_util.py	/^def dense(x, size, name, weight_init=None, bias=True):$/;"	f	access:public
+densenobias	common/tf_util.py	/^def densenobias(x, size, name, weight_init=None):$/;"	f	access:public
+deterministic	enjoy.py	/^                                        deterministic=True)$/;"	v
+discount	common/math_util.py	/^def discount(x, gamma):$/;"	f	access:public
+discount_with_boundaries	common/math_util.py	/^def discount_with_boundaries(X, New, gamma):$/;"	f	access:public
+distance	enjoy.py	/^            distance = 5$/;"	v
+dropout	common/tf_util.py	/^def dropout(x, pkeep, phase=None, mask=None):$/;"	f	access:public
+ensure_tf_input	common/tf_util.py	/^def ensure_tf_input(thing):$/;"	f	access:public
+entropy	common/distributions.py	/^    def entropy(self):$/;"	m	class:BernoulliPd	access:public
+entropy	common/distributions.py	/^    def entropy(self):$/;"	m	class:CategoricalPd	access:public
+entropy	common/distributions.py	/^    def entropy(self):$/;"	m	class:DiagGaussianPd	access:public
+entropy	common/distributions.py	/^    def entropy(self):$/;"	m	class:MultiCategoricalPd	access:public
+entropy	common/distributions.py	/^    def entropy(self):$/;"	m	class:Pd	access:public
+env	enjoy.py	/^env = make_env(args.env_name, args.seed, 0, args.log_dir)()$/;"	v
+env_shortname	bench/benchmarks.py	/^def env_shortname(s):$/;"	f	access:public
+eval	common/tf_util.py	/^def eval(expr, feed_dict=None):$/;"	f	access:public
+evaluate_actions	distributions.py	/^    def evaluate_actions(self, x, actions):$/;"	m	class:Categorical	access:public
+evaluate_actions	distributions.py	/^    def evaluate_actions(self, x, actions):$/;"	m	class:DiagGaussian	access:public
+evaluate_actions	model.py	/^    def evaluate_actions(self, inputs, actions):$/;"	m	class:FFPolicy	access:public
+evaluate_states_value_fisher	model.py	/^    def evaluate_states_value_fisher(self, inputs):$/;"	m	class:FFPolicy	access:public
+ewc	arguments.py	/^ewc = 0$/;"	v
+ewc_interval	arguments.py	/^ewc_interval = 10$/;"	v
+ewc_lambda	arguments.py	/^ewc_lambda = 1.0$/;"	v
+ewc_loss	gtn_optimize.py	/^            ewc_loss = actor_critic.get_ewc_loss(lam=ewc_lambda)$/;"	v
+ewc_loss	gtn_optimize.py	/^    ewc_loss = None$/;"	v
+exists	common/azure_utils.py	/^    def exists(self, blob_name):$/;"	m	class:Container	access:public
+exp	arguments.py	/^exp = 'on_ewc_games_'$/;"	v
+explained_variance	common/math_util.py	/^def explained_variance(ypred,y):$/;"	f	access:public
+explained_variance_2d	common/math_util.py	/^def explained_variance_2d(ypred, y):$/;"	f	access:public
+f	bench/monitor.py	/^    f = None$/;"	v	class:Monitor
+fancy_slice_2d	common/tf_util.py	/^def fancy_slice_2d(X, inds0, inds1):$/;"	f	access:public
+files	main.py	/^        files = glob.glob(os.path.join(log_dir, '*.monitor.json'))$/;"	v
+final_loss	gtn_optimize.py	/^        final_loss = final_loss_basic + ewc_loss$/;"	v
+final_loss	gtn_optimize.py	/^        final_loss = final_loss_basic$/;"	v
+final_loss_basic	gtn_optimize.py	/^    final_loss_basic = value_loss * args.value_loss_coef + action_loss - dist_entropy * args.entropy_coef$/;"	v
+find_prefixsum_idx	common/segment_tree.py	/^    def find_prefixsum_idx(self, prefixsum):$/;"	m	class:SumSegmentTree	access:public
+find_task_for_env_id_in_any_benchmark	bench/benchmarks.py	/^def find_task_for_env_id_in_any_benchmark(env_id):$/;"	f	access:public
+fix_point	visualize.py	/^def fix_point(x, y, interval):$/;"	f	access:public
+fixed_list_blobs	common/azure_utils.py	/^def fixed_list_blobs(service, *args, **kwargs):$/;"	f	access:public
+flatgrad	common/tf_util.py	/^def flatgrad(loss, var_list, clip_norm=None):$/;"	f	access:public
+flatparam	common/distributions.py	/^    def flatparam(self):$/;"	m	class:BernoulliPd	access:public
+flatparam	common/distributions.py	/^    def flatparam(self):$/;"	m	class:CategoricalPd	access:public
+flatparam	common/distributions.py	/^    def flatparam(self):$/;"	m	class:DiagGaussianPd	access:public
+flatparam	common/distributions.py	/^    def flatparam(self):$/;"	m	class:MultiCategoricalPd	access:public
+flatparam	common/distributions.py	/^    def flatparam(self):$/;"	m	class:Pd	access:public
+flatten_arrays	common/math_util.py	/^def flatten_arrays(arrs):$/;"	f	access:public
+flattenallbut0	common/tf_util.py	/^def flattenallbut0(x):$/;"	f	access:public
+flush	plot.py	/^	def flush(self):$/;"	m	class:logger	access:public
+fmt_item	common/console_util.py	/^def fmt_item(x, l):$/;"	f	access:public
+fmt_row	common/console_util.py	/^def fmt_row(width, row, header=False):$/;"	f	access:public
+forward	distributions.py	/^    def forward(self, x):$/;"	m	class:Categorical	access:public
+forward	distributions.py	/^    def forward(self, x):$/;"	m	class:DiagGaussian	access:public
+forward	kfac.py	/^    def forward(self, input):$/;"	m	class:SplitBias	access:public
+forward	model.py	/^    def forward(self, inputs):$/;"	m	class:CNNPolicy	access:public
+forward	model.py	/^    def forward(self, inputs):$/;"	m	class:MLPPolicy	access:public
+forward	model.py	/^    def forward(self, x):$/;"	m	class:FFPolicy	access:public
+forward	utils.py	/^    def forward(self, x):$/;"	m	class:AddBias	access:public
+fromflat	common/distributions.py	/^    def fromflat(cls, flat):$/;"	m	class:BernoulliPd	access:public
+fromflat	common/distributions.py	/^    def fromflat(cls, flat):$/;"	m	class:CategoricalPd	access:public
+fromflat	common/distributions.py	/^    def fromflat(cls, flat):$/;"	m	class:DiagGaussianPd	access:public
+fromflat	common/distributions.py	/^    def fromflat(cls, flat):$/;"	m	class:MultiCategoricalPd	access:public
+function	common/tf_util.py	/^def function(inputs, outputs, updates=None, givens=None):$/;"	f	access:public
+g_game_dic_all	get_name.py	/^g_game_dic_all = get_env_dic([$/;"	v
+g_game_dic_shooting	get_name.py	/^g_game_dic_shooting = get_env_dic([$/;"	v
+g_game_dic_test_multi_pong	get_name.py	/^g_game_dic_test_multi_pong = get_env_dic([$/;"	v
+g_game_dic_test_single_pong	get_name.py	/^g_game_dic_test_single_pong = get_env_dic([$/;"	v
+get	common/azure_utils.py	/^    def get(self, dest_path, blob_name, callback=None):$/;"	m	class:Container	access:public
+get	common/tf_util.py	/^    def get(self):$/;"	m	class:PlacholderTfInput	access:public
+get	common/tf_util.py	/^    def get(self):$/;"	m	class:TfInput	access:public
+get	common/tf_util.py	/^    def get(self):$/;"	m	class:Uint8Input	access:public
+get_afs_per_m	model.py	/^    def get_afs_per_m(self, action_log_probs, conv_list):$/;"	m	class:CNNPolicy	access:public
+get_args	arguments.py	/^def get_args():$/;"	f	access:public
+get_benchmark	bench/benchmarks.py	/^def get_benchmark(benchmark_name):$/;"	f	access:public
+get_env_ac_space	get_name.py	/^def get_env_ac_space(env_id):$/;"	f	access:public
+get_env_dic	get_name.py	/^def get_env_dic(env_seq_id):$/;"	f	access:public
+get_env_dic_ac_space	get_name.py	/^def get_env_dic_ac_space(env_id_dic):$/;"	f	access:public
+get_episode_lengths	bench/monitor.py	/^    def get_episode_lengths(self):$/;"	m	class:Monitor	access:public
+get_episode_rewards	bench/monitor.py	/^    def get_episode_rewards(self):$/;"	m	class:Monitor	access:public
+get_ewc_loss	model.py	/^    def get_ewc_loss(self, lam):$/;"	m	class:CNNPolicy	access:public
+get_fisher_one	model.py	/^        def get_fisher_one(state):$/;"	f	function:CNNPolicy.compute_fisher	access:public
+get_grad_norm	model.py	/^        def get_grad_norm(inputs,outputs):$/;"	f	function:CNNPolicy.get_gradient_reward_one_m	access:public
+get_gradient_reward_one_m	model.py	/^    def get_gradient_reward_one_m(self, action_log_probs, conv):$/;"	m	class:CNNPolicy	access:public
+get_monitor_files	bench/monitor.py	/^def get_monitor_files(dir):$/;"	f	access:public
+get_parents	common/tf_util.py	/^def get_parents(node):$/;"	f	access:public
+get_placeholder	common/tf_util.py	/^def get_placeholder(name, dtype, shape):$/;"	f	access:public
+get_placeholder_cached	common/tf_util.py	/^def get_placeholder_cached(name):$/;"	f	access:public
+get_plot	plot.py	/^	def get_plot(self, name):$/;"	m	class:logger	access:public
+get_session	common/tf_util.py	/^def get_session():$/;"	f	access:public
+get_state	common/misc_util.py	/^    def get_state(self):$/;"	m	class:SimpleMonitor	access:public
+get_task	bench/benchmarks.py	/^def get_task(benchmark, env_id):$/;"	f	access:public
+get_total_steps	bench/monitor.py	/^    def get_total_steps(self):$/;"	m	class:Monitor	access:public
+get_wrapper_by_name	common/misc_util.py	/^def get_wrapper_by_name(env, classname):$/;"	f	access:public
+gpus	arguments.py	/^    gpus = [0]$/;"	v
+gpus	arguments.py	/^    gpus = range(torch.cuda.device_count())$/;"	v
+gray	common/console_util.py	/^    gray=30,$/;"	v
+green	common/console_util.py	/^    green=32,$/;"	v
+gtn_M	arguments.py	/^gtn_M = 3 $/;"	v
+gtn_N	arguments.py	/^gtn_N =4 $/;"	v
+help	enjoy.py	/^                    help='algorithm to use: a2c | ppo | acktr')$/;"	v
+help	enjoy.py	/^                    help='directory to save agent logs (default: .\/trained_models\/)')$/;"	v
+help	enjoy.py	/^                    help='directory to save agent logs (default: \/tmp\/gym)')$/;"	v
+help	enjoy.py	/^                    help='environment to train on (default: PongNoFrameskip-v4)')$/;"	v
+help	enjoy.py	/^                    help='log interval, one log per n updates (default: 10)')$/;"	v
+help	enjoy.py	/^                    help='number of frames to stack (default: 4)')$/;"	v
+help	enjoy.py	/^                    help='random seed (default: 1)')$/;"	v
+helper	common/misc_util.py	/^    def helper(cnt, name):$/;"	f	function:pretty_eta	access:public
+hierarchical	arguments.py	/^hierarchical = 1$/;"	v
+huber_loss	common/tf_util.py	/^def huber_loss(x, delta=1.0):$/;"	f	access:public
+in_session	common/tf_util.py	/^def in_session(f):$/;"	f	access:public
+indices	gtn_optimize.py	/^                indices = indices.cuda()$/;"	v
+indices	gtn_optimize.py	/^            indices = torch.LongTensor(indices)$/;"	v
+indices	ppo_optimize.py	/^                indices = indices.cuda()$/;"	v
+indices	ppo_optimize.py	/^            indices = torch.LongTensor(indices)$/;"	v
+initialize	common/tf_util.py	/^def initialize():$/;"	f	access:public
+insert	storage.py	/^    def insert(self, step, current_state, action, value_pred, reward, mask):$/;"	m	class:RolloutStorage	access:public
+intprod	common/tf_util.py	/^def intprod(x):$/;"	f	access:public
+is_placeholder	common/tf_util.py	/^def is_placeholder(x):$/;"	f	access:public
+is_restore	arguments.py	/^is_restore = False$/;"	v
+is_use_afs	main.py	/^is_use_afs = True$/;"	v
+is_use_ppo	arguments.py	/^is_use_ppo =False $/;"	v
+iterate_once	common/dataset.py	/^    def iterate_once(self, batch_size):$/;"	m	class:Dataset	access:public
+iterbatches	common/dataset.py	/^def iterbatches(arrays, *, num_batches=None, batch_size=None, shuffle=True, include_final_partial_batch=True):$/;"	f	access:public
+kl	common/distributions.py	/^    def kl(self, other):$/;"	m	class:BernoulliPd	access:public
+kl	common/distributions.py	/^    def kl(self, other):$/;"	m	class:CategoricalPd	access:public
+kl	common/distributions.py	/^    def kl(self, other):$/;"	m	class:DiagGaussianPd	access:public
+kl	common/distributions.py	/^    def kl(self, other):$/;"	m	class:MultiCategoricalPd	access:public
+kl	common/distributions.py	/^    def kl(self, other):$/;"	m	class:Pd	access:public
+l2loss	common/tf_util.py	/^def l2loss(params):$/;"	f	access:public
+lengths_to_mask	common/tf_util.py	/^def lengths_to_mask(lengths_b, max_length):$/;"	f	access:public
+linear	model.py	/^        def linear(self,x):$/;"	m	class:LinearFeature	access:public
+linear_interpolation	common/schedules.py	/^def linear_interpolation(l, r, alpha):$/;"	f	access:public
+list	common/azure_utils.py	/^    def list(self, prefix=None):$/;"	m	class:Container	access:public
+list_benchmarks	bench/benchmarks.py	/^def list_benchmarks():$/;"	f	access:public
+load_data	visualize.py	/^def load_data(indir, smooth, bin_size):$/;"	f	access:public
+load_results	bench/monitor.py	/^def load_results(dir, raw_episodes=False):$/;"	f	access:public
+load_state	common/tf_util.py	/^def load_state(fname):$/;"	f	access:public
+log_dir	main.py	/^    log_dir = args.log_dir+env_id+'\/'$/;"	v
+log_fisher_sensitivity_per_m	arguments.py	/^    log_fisher_sensitivity_per_m = 1$/;"	v
+log_fisher_sensitivity_per_m	arguments.py	/^log_fisher_sensitivity_per_m = 0$/;"	v
+log_interval	arguments.py	/^    log_interval = 1$/;"	v
+log_interval	arguments.py	/^    log_interval = 10$/;"	v
+log_interval	arguments.py	/^    log_interval = 20$/;"	v
+logger	plot.py	/^class logger(object):$/;"	c	inherits:object
+logp	common/distributions.py	/^    def logp(self, x):$/;"	m	class:Pd	access:public
+loss_fisher_sensitivity_per_m	arguments.py	/^loss_fisher_sensitivity_per_m = 0$/;"	v
+lrelu	common/tf_util.py	/^def lrelu(x, leak=0.2):$/;"	f	access:public
+magenta	common/console_util.py	/^    magenta=35,$/;"	v
+main	main.py	/^def main():$/;"	f	access:public
+make_archive	common/azure_utils.py	/^def make_archive(source_path, dest_path):$/;"	f	access:public
+make_env	envs.py	/^def make_env(env_id, seed, rank, log_dir):$/;"	f	access:public
+make_feed_dict	common/tf_util.py	/^    def make_feed_dict(data):$/;"	m	class:TfInput	access:public
+make_feed_dict	common/tf_util.py	/^    def make_feed_dict(self, data):$/;"	m	class:PlacholderTfInput	access:public
+make_pdtype	common/distributions.py	/^def make_pdtype(ac_space):$/;"	f	access:public
+make_session	common/tf_util.py	/^def make_session(num_cpu):$/;"	f	access:public
+max	common/tf_util.py	/^def max(x, axis=None, keepdims=False):$/;"	f	access:public
+mean	common/tf_util.py	/^def mean(x, axis=None, keepdims=False):$/;"	f	access:public
+mem_friendly_function	common/tf_util.py	/^def mem_friendly_function(nondata_inputs, data_inputs, outputs, batch_size):$/;"	f	access:public
+min	common/segment_tree.py	/^    def min(self, start=0, end=None):$/;"	m	class:MinSegmentTree	access:public
+min	common/tf_util.py	/^def min(x, axis=None, keepdims=False):$/;"	f	access:public
+minimize_and_clip	common/tf_util.py	/^def minimize_and_clip(optimizer, objective, var_list, clip_val=10):$/;"	f	access:public
+mode	common/distributions.py	/^    def mode(self):$/;"	m	class:BernoulliPd	access:public
+mode	common/distributions.py	/^    def mode(self):$/;"	m	class:CategoricalPd	access:public
+mode	common/distributions.py	/^    def mode(self):$/;"	m	class:DiagGaussianPd	access:public
+mode	common/distributions.py	/^    def mode(self):$/;"	m	class:MultiCategoricalPd	access:public
+mode	common/distributions.py	/^    def mode(self):$/;"	m	class:Pd	access:public
+module	common/tf_util.py	/^def module(name):$/;"	f	access:public
+mpi_fork	common/mpi_fork.py	/^def mpi_fork(n, bind_to_core=False):$/;"	f	access:public
+mpi_moments	common/mpi_moments.py	/^def mpi_moments(x, axis=0):$/;"	f	access:public
+mt_env_id_dic_all	main.py	/^mt_env_id_dic_all = {$/;"	v
+mt_env_id_dic_selected	main.py	/^mt_env_id_dic_selected = mt_env_id_dic_all[args.env_name]$/;"	v
+multi_gpu	arguments.py	/^multi_gpu = 0$/;"	v
+ncc	common/math_util.py	/^def ncc(ypred, y):$/;"	f	access:public
+neglogp	common/distributions.py	/^    def neglogp(self, x):$/;"	m	class:BernoulliPd	access:public
+neglogp	common/distributions.py	/^    def neglogp(self, x):$/;"	m	class:CategoricalPd	access:public
+neglogp	common/distributions.py	/^    def neglogp(self, x):$/;"	m	class:DiagGaussianPd	access:public
+neglogp	common/distributions.py	/^    def neglogp(self, x):$/;"	m	class:MultiCategoricalPd	access:public
+neglogp	common/distributions.py	/^    def neglogp(self, x):$/;"	m	class:Pd	access:public
+newfunc	common/tf_util.py	/^    def newfunc(*args, **kwargs):$/;"	f	function:in_session	access:public
+next_batch	common/dataset.py	/^    def next_batch(self, batch_size):$/;"	m	class:Dataset	access:public
+normc_initializer	common/tf_util.py	/^def normc_initializer(std=1.0):$/;"	f	access:public
+num_envs	common/vec_env/subproc_vec_env.py	/^    def num_envs(self):$/;"	m	class:SubprocVecEnv	access:public
+num_envs	common/vec_env/subproc_vec_env.py	/^    def num_envs(self):$/;"	m	class:SubprocVecEnvMt	access:public
+num_processes	arguments.py	/^    num_processes = 1$/;"	v
+num_processes	arguments.py	/^    num_processes = 16$/;"	v
+num_processes	arguments.py	/^    num_processes = 4$/;"	v
+num_processes	arguments.py	/^    num_processes = 8 $/;"	v
+num_updates	main.py	/^num_updates = int(args.num_frames) \/\/ args.num_steps \/\/ args.num_processes$/;"	v
+numel	common/tf_util.py	/^def numel(x):$/;"	f	access:public
+obs_shape	enjoy.py	/^obs_shape = (obs_shape[0] * args.num_stack, *obs_shape[1:])$/;"	v
+obs_shape	enjoy.py	/^obs_shape = env.observation_space.shape$/;"	v
+param_placeholder	common/distributions.py	/^    def param_placeholder(self, prepend_shape, name=None):$/;"	m	class:PdType	access:public
+param_shape	common/distributions.py	/^    def param_shape(self):$/;"	m	class:BernoulliPdType	access:public
+param_shape	common/distributions.py	/^    def param_shape(self):$/;"	m	class:CategoricalPdType	access:public
+param_shape	common/distributions.py	/^    def param_shape(self):$/;"	m	class:DiagGaussianPdType	access:public
+param_shape	common/distributions.py	/^    def param_shape(self):$/;"	m	class:MultiCategoricalPdType	access:public
+param_shape	common/distributions.py	/^    def param_shape(self):$/;"	m	class:PdType	access:public
+parameter_noise	arguments.py	/^parameter_noise = 1$/;"	v
+parameter_noise	model.py	/^    def parameter_noise(self):$/;"	m	class:CNNPolicy	access:public
+parameter_noise_interval	arguments.py	/^parameter_noise_interval = 10$/;"	v
+parameter_noise_rate	arguments.py	/^parameter_noise_rate = 0.01$/;"	v
+parser	enjoy.py	/^parser = argparse.ArgumentParser(description='RL')$/;"	v
+pdclass	common/distributions.py	/^    def pdclass(self):$/;"	m	class:BernoulliPdType	access:public
+pdclass	common/distributions.py	/^    def pdclass(self):$/;"	m	class:CategoricalPdType	access:public
+pdclass	common/distributions.py	/^    def pdclass(self):$/;"	m	class:DiagGaussianPdType	access:public
+pdclass	common/distributions.py	/^    def pdclass(self):$/;"	m	class:MultiCategoricalPdType	access:public
+pdclass	common/distributions.py	/^    def pdclass(self):$/;"	m	class:PdType	access:public
+pdfromflat	common/distributions.py	/^    def pdfromflat(self, flat):$/;"	m	class:MultiCategoricalPdType	access:public
+pdfromflat	common/distributions.py	/^    def pdfromflat(self, flat):$/;"	m	class:PdType	access:public
+pickle_load	common/misc_util.py	/^def pickle_load(path, compression=False):$/;"	f	access:public
+plot	plot.py	/^	def plot(self, name, value):$/;"	m	class:logger	access:public
+pretty_eta	common/misc_util.py	/^def pretty_eta(seconds_left):$/;"	f	access:public
+process	common/atari_wrappers_deprecated.py	/^    def process(frame):$/;"	m	class:A2cProcessFrame	access:public
+process	common/atari_wrappers_deprecated.py	/^    def process(frame):$/;"	m	class:ProcessFrame84	access:public
+progress_callback	common/azure_utils.py	/^        def progress_callback(current, total):$/;"	f	function:Container.get	access:public
+progress_callback	common/azure_utils.py	/^        def progress_callback(current, total):$/;"	f	function:Container.put	access:public
+put	common/azure_utils.py	/^    def put(self, source_path, blob_name, callback=None):$/;"	m	class:Container	access:public
+ratio	gtn_optimize.py	/^            ratio = torch.exp(action_log_probs - Variable(old_action_log_probs.data))$/;"	v
+ratio	ppo_optimize.py	/^            ratio = torch.exp(action_log_probs - Variable(old_action_log_probs.data))$/;"	v
+rec_last_100_epi_reward	main.py	/^def rec_last_100_epi_reward(reward,done_list):$/;"	f	access:public
+red	common/console_util.py	/^    red=31,$/;"	v
+reduce	common/segment_tree.py	/^    def reduce(self, start=0, end=None):$/;"	m	class:SegmentTree	access:public
+register_benchmark	bench/benchmarks.py	/^def register_benchmark(benchmark):$/;"	f	access:public
+relatively_safe_pickle_dump	common/misc_util.py	/^def relatively_safe_pickle_dump(obj, path, compression=False):$/;"	f	access:public
+reset	bench/monitor.py	/^    def reset(self):$/;"	m	class:Monitor	access:public
+reset	common/tf_util.py	/^def reset():$/;"	f	access:public
+reset	common/vec_env/__init__.py	/^    def reset(self):$/;"	m	class:VecEnv	access:public
+reset	common/vec_env/subproc_vec_env.py	/^    def reset(self):$/;"	m	class:SubprocVecEnv	access:public
+reset	common/vec_env/subproc_vec_env.py	/^    def reset(self):$/;"	m	class:SubprocVecEnvMt	access:public
+reset_linear_conv_parameters	model.py	/^        def reset_linear_conv_parameters(x):$/;"	f	function:CNNPolicy.reset_parameters	access:public
+reset_parameters	model.py	/^    def reset_parameters(self):$/;"	m	class:CNNPolicy	access:public
+reset_parameters	model.py	/^    def reset_parameters(self):$/;"	m	class:MLPPolicy	access:public
+restore	plot.py	/^	def restore(self):$/;"	m	class:logger	access:public
+retrieve_name	model.py	/^        def retrieve_name(var):$/;"	f	function:CNNPolicy.reset_parameters	access:public
+return_batch	gtn_optimize.py	/^            return_batch = rollouts.returns[:-1].view(-1, 1)[indices]$/;"	v
+return_batch	ppo_optimize.py	/^            return_batch = rollouts.returns[:-1].view(-1, 1)[indices]$/;"	v
+reward_dict	main.py	/^reward_dict={}$/;"	v
+sample	common/distributions.py	/^    def sample(self):$/;"	m	class:BernoulliPd	access:public
+sample	common/distributions.py	/^    def sample(self):$/;"	m	class:CategoricalPd	access:public
+sample	common/distributions.py	/^    def sample(self):$/;"	m	class:DiagGaussianPd	access:public
+sample	common/distributions.py	/^    def sample(self):$/;"	m	class:MultiCategoricalPd	access:public
+sample	common/distributions.py	/^    def sample(self):$/;"	m	class:Pd	access:public
+sample	distributions.py	/^    def sample(self, x, deterministic):$/;"	m	class:Categorical	access:public
+sample	distributions.py	/^    def sample(self, x, deterministic):$/;"	m	class:DiagGaussian	access:public
+sample_dtype	common/distributions.py	/^    def sample_dtype(self):$/;"	m	class:BernoulliPdType	access:public
+sample_dtype	common/distributions.py	/^    def sample_dtype(self):$/;"	m	class:CategoricalPdType	access:public
+sample_dtype	common/distributions.py	/^    def sample_dtype(self):$/;"	m	class:DiagGaussianPdType	access:public
+sample_dtype	common/distributions.py	/^    def sample_dtype(self):$/;"	m	class:MultiCategoricalPdType	access:public
+sample_dtype	common/distributions.py	/^    def sample_dtype(self):$/;"	m	class:PdType	access:public
+sample_placeholder	common/distributions.py	/^    def sample_placeholder(self, prepend_shape, name=None):$/;"	m	class:PdType	access:public
+sample_shape	common/distributions.py	/^    def sample_shape(self):$/;"	m	class:BernoulliPdType	access:public
+sample_shape	common/distributions.py	/^    def sample_shape(self):$/;"	m	class:CategoricalPdType	access:public
+sample_shape	common/distributions.py	/^    def sample_shape(self):$/;"	m	class:DiagGaussianPdType	access:public
+sample_shape	common/distributions.py	/^    def sample_shape(self):$/;"	m	class:MultiCategoricalPdType	access:public
+sample_shape	common/distributions.py	/^    def sample_shape(self):$/;"	m	class:PdType	access:public
+sampler	gtn_optimize.py	/^        sampler = BatchSampler(SubsetRandomSampler(range(num_processes_total * args.num_steps)), args.batch_size * num_processes_total, drop_last=False)$/;"	v
+sampler	ppo_optimize.py	/^        sampler = BatchSampler(SubsetRandomSampler(range(args.num_processes * args.num_steps)), args.batch_size * args.num_processes, drop_last=False)$/;"	v
+save_state	common/tf_util.py	/^def save_state(fname):$/;"	f	access:public
+scope_name	common/tf_util.py	/^def scope_name():$/;"	f	access:public
+scope_vars	common/tf_util.py	/^def scope_vars(scope, trainable_only=False):$/;"	f	access:public
+services	common/azure_utils.py	/^    services = {}$/;"	v	class:Container
+set_global_seeds	common/misc_util.py	/^def set_global_seeds(i):$/;"	f	access:public
+set_state	common/misc_util.py	/^    def set_state(self, state):$/;"	m	class:SimpleMonitor	access:public
+set_value	common/tf_util.py	/^def set_value(v, val):$/;"	f	access:public
+shape_el	common/distributions.py	/^def shape_el(v, i):$/;"	f	access:public
+shuffle	common/dataset.py	/^    def shuffle(self):$/;"	m	class:Dataset	access:public
+single_threaded_session	common/tf_util.py	/^def single_threaded_session():$/;"	f	access:public
+smooth_reward_curve	visualize.py	/^def smooth_reward_curve(x, y):$/;"	f	access:public
+split_bias	kfac.py	/^        def split_bias(module):$/;"	f	function:KFACOptimizer.__init__	access:public
+star	model.py	/^    def star(self):$/;"	m	class:CNNPolicy	access:public
+state	enjoy.py	/^        state = env.reset()$/;"	v
+state	enjoy.py	/^state = env.reset()$/;"	v
+states_batch	gtn_optimize.py	/^            states_batch = rollouts.states[:-1].view(-1, *obs_shape)[indices]$/;"	v
+states_batch	ppo_optimize.py	/^            states_batch = rollouts.states[:-1].view(-1, *obs_shape)[indices]$/;"	v
+std	common/tf_util.py	/^def std(x, axis=None, keepdims=False):$/;"	f	access:public
+step	bench/monitor.py	/^    def step(self, action):$/;"	m	class:Monitor	access:public
+step	common/vec_env/__init__.py	/^    def step(self, vac):$/;"	m	class:VecEnv	access:public
+step	common/vec_env/subproc_vec_env.py	/^    def step(self, actions):$/;"	m	class:SubprocVecEnv	access:public
+step	common/vec_env/subproc_vec_env.py	/^    def step(self, actions):$/;"	m	class:SubprocVecEnvMt	access:public
+step	kfac.py	/^    def step(self):$/;"	m	class:KFACOptimizer	access:public
+subset	common/dataset.py	/^    def subset(self, num_elements, deterministic=True):$/;"	m	class:Dataset	access:public
+sum	common/segment_tree.py	/^    def sum(self, start=0, end=None):$/;"	m	class:SumSegmentTree	access:public
+sum	common/tf_util.py	/^def sum(x, axis=None, keepdims=False):$/;"	f	access:public
+surr1	gtn_optimize.py	/^            surr1 = ratio * adv_targ$/;"	v
+surr1	ppo_optimize.py	/^            surr1 = ratio * adv_targ$/;"	v
+surr2	gtn_optimize.py	/^            surr2 = torch.clamp(ratio, 1.0 - args.clip_param, 1.0 + args.clip_param) * adv_targ$/;"	v
+surr2	ppo_optimize.py	/^            surr2 = torch.clamp(ratio, 1.0 - args.clip_param, 1.0 + args.clip_param) * adv_targ$/;"	v
+switch	common/tf_util.py	/^def switch(condition, then_expression, else_expression):$/;"	f	access:public
+sync	common/mpi_adam.py	/^    def sync(self):$/;"	m	class:MpiAdam	access:public
+test_MpiAdam	common/mpi_adam.py	/^def test_MpiAdam():$/;"	f	access:public
+test_constant_schedule	common/tests/test_schedules.py	/^def test_constant_schedule():$/;"	f	access:public
+test_discount_with_boundaries	common/math_util.py	/^def test_discount_with_boundaries():$/;"	f	access:public
+test_dist	common/mpi_running_mean_std.py	/^def test_dist():$/;"	f	access:public
+test_function	common/tests/test_tf_util.py	/^def test_function():$/;"	f	access:public
+test_max_interval_tree	common/tests/test_segment_tree.py	/^def test_max_interval_tree():$/;"	f	access:public
+test_multikwargs	common/tests/test_tf_util.py	/^def test_multikwargs():$/;"	f	access:public
+test_piecewise_schedule	common/tests/test_schedules.py	/^def test_piecewise_schedule():$/;"	f	access:public
+test_prefixsum_idx	common/tests/test_segment_tree.py	/^def test_prefixsum_idx():$/;"	f	access:public
+test_prefixsum_idx2	common/tests/test_segment_tree.py	/^def test_prefixsum_idx2():$/;"	f	access:public
+test_probtypes	common/distributions.py	/^def test_probtypes():$/;"	f	access:public
+test_runningmeanstd	common/mpi_moments.py	/^def test_runningmeanstd():$/;"	f	access:public
+test_runningmeanstd	common/mpi_running_mean_std.py	/^def test_runningmeanstd():$/;"	f	access:public
+test_set_value	common/tests/test_tf_util.py	/^def test_set_value():$/;"	f	access:public
+test_tree_set	common/tests/test_segment_tree.py	/^def test_tree_set():$/;"	f	access:public
+test_tree_set_overlap	common/tests/test_segment_tree.py	/^def test_tree_set_overlap():$/;"	f	access:public
+tick	plot.py	/^	def tick(self):$/;"	m	class:logger	access:public
+timed	common/console_util.py	/^def timed(msg):$/;"	f	access:public
+title	arguments.py	/^    title = title[:x] + '\\n' + title[x:]$/;"	v
+title	arguments.py	/^title = exp$/;"	v
+title_html	arguments.py	/^    title_html = title_html[:x] + '<br>' + title_html[x:]$/;"	v
+title_html	arguments.py	/^title_html = exp$/;"	v
+to_data_parallel	model.py	/^def to_data_parallel(m):$/;"	f	access:public
+topsorted	common/tf_util.py	/^def topsorted(outputs):$/;"	f	access:public
+torsoId	enjoy.py	/^            torsoId = i$/;"	v
+torsoId	enjoy.py	/^    torsoId = -1$/;"	v
+trainable_variables	common/tf_util.py	/^    def trainable_variables(self):$/;"	m	class:Module	access:public
+unflatten_vector	common/math_util.py	/^def unflatten_vector(vec, shapes):$/;"	f	access:public
+unpack	common/misc_util.py	/^def unpack(seq, sizes):$/;"	f	access:public
+update	common/misc_util.py	/^    def update(self, new_val):$/;"	m	class:RunningAvg	access:public
+update	common/mpi_adam.py	/^    def update(self, localg, stepsize):$/;"	m	class:MpiAdam	access:public
+update	common/mpi_running_mean_std.py	/^    def update(self, x):$/;"	m	class:RunningMeanStd	access:public
+update	running_stat.py	/^    def update(self, x):$/;"	m	class:ObsNorm	access:public
+update_current_state	enjoy.py	/^def update_current_state(state):$/;"	f	access:public
+update_current_state	main.py	/^    def update_current_state(state):$/;"	f	function:main	access:public
+update_running_stat	kfac.py	/^def update_running_stat(aa, m_aa, momentum):$/;"	f	access:public
+validate_probtype	common/distributions.py	/^def validate_probtype(probtype, pdparam):$/;"	f	access:public
+value	common/schedules.py	/^    def value(self, t):$/;"	m	class:ConstantSchedule	access:public
+value	common/schedules.py	/^    def value(self, t):$/;"	m	class:LinearSchedule	access:public
+value	common/schedules.py	/^    def value(self, t):$/;"	m	class:PiecewiseSchedule	access:public
+value	common/schedules.py	/^    def value(self, t):$/;"	m	class:Schedule	access:public
+value_loss	gtn_optimize.py	/^            value_loss = (Variable(return_batch) - values).pow(2).mean()$/;"	v
+value_loss	gtn_optimize.py	/^    value_loss = advantages.pow(2).mean()$/;"	v
+value_loss	ppo_optimize.py	/^            value_loss = (Variable(return_batch) - values).pow(2).mean()$/;"	v
+value_loss	ppo_optimize.py	/^    value_loss = advantages.pow(2).mean()$/;"	v
+values	gtn_optimize.py	/^    values = values.view(args.num_steps, num_processes_total, 1)$/;"	v
+values	ppo_optimize.py	/^    values = values.view(args.num_steps, args.num_processes, 1)$/;"	v
+var	common/tf_util.py	/^def var(x, axis=None, keepdims=False):$/;"	f	access:public
+var_shape	common/tf_util.py	/^def var_shape(x):$/;"	f	access:public
+variables	common/tf_util.py	/^    def variables(self):$/;"	m	class:Module	access:public
+vis	plot.py	/^vis = visdom.Visdom()$/;"	v
+vis_interval	arguments.py	/^    vis_interval = 1$/;"	v
+vis_interval	arguments.py	/^    vis_interval = 10$/;"	v
+vis_interval	arguments.py	/^    vis_interval = 20$/;"	v
+visdom_plot	visualize.py	/^def visdom_plot(viz, win, folder, game, name, bin_size=100, smooth=1):$/;"	f	access:public
+viz	visualize.py	/^    viz = Visdom()$/;"	v
+weights_init	model.py	/^def weights_init(m):$/;"	f	access:public
+weights_init_mlp	model.py	/^def weights_init_mlp(m):$/;"	f	access:public
+white	common/console_util.py	/^    white=37,$/;"	v
+wndense	common/tf_util.py	/^def wndense(x, size, name, init_scale=1.0):$/;"	f	access:public
+worker	common/vec_env/subproc_vec_env.py	/^def worker(remote, env_fn_wrapper):$/;"	f	access:public
+wrap_deepmind	common/atari_wrappers.py	/^def wrap_deepmind(env, episode_life=True, clip_rewards=True):$/;"	f	access:public
+wrap_dqn	common/atari_wrappers_deprecated.py	/^def wrap_dqn(env):$/;"	f	access:public
+wrapper	common/tf_util.py	/^    def wrapper(f):$/;"	f	function:module	access:public
+writekvs	bench/monitor.py	/^    def writekvs(self, kvs):$/;"	m	class:JSONLogger	access:public
+yaw	enjoy.py	/^            yaw = 0$/;"	v
+yellow	common/console_util.py	/^    yellow=33,$/;"	v
+zipsame	common/misc_util.py	/^def zipsame(*seqs):$/;"	f	access:public

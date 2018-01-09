@@ -5,8 +5,8 @@ is_use_ppo =False
 #############
 debugging = 0
 
-gtn_M = 1 
-gtn_N = 3
+gtn_M = 3 
+gtn_N =4 
 
 hierarchical = 1
 
@@ -29,7 +29,8 @@ if loss_fisher_sensitivity_per_m == 1:
 
     # dataset = 'mt shooting'
 # else:
-dataset = 'mt_as_ewc_test'
+#dataset = 'mt_as_ewc_test'
+dataset = 'mt test pong'
 # dataset = 'mt high performance'
 # dataset = 'mt all atari'
 
@@ -64,7 +65,7 @@ else:
 if is_use_ppo is False:
     num_processes = 16
 else:
-    num_processes = 4
+    num_processes = 8 
 if dataset == 'mt all atari':
     num_processes = 4
 
@@ -132,7 +133,7 @@ def get_args():
                         help='number of forward steps in ppo (default: 5)')
     parser.add_argument('--ppo-epoch', type=int, default=4,
                         help='number of ppo epochs (default: 4)')
-    parser.add_argument('--batch-size', type=int, default=32,
+    parser.add_argument('--batch-size', type=int, default=64,
                         help='ppo batch size (default: 64)')
     parser.add_argument('--clip-param', type=float, default=0.2,
                         help='ppo clip parameter (default: 0.2)')

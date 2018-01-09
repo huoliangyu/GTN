@@ -23,7 +23,7 @@ from arguments import debugging, gtn_M
 from arguments import exp, title, title_html
 is_use_afs = True
 args = get_args()
-
+is_rec_raw_reward = True
 assert args.algo in ['a2c', 'ppo', 'acktr']
 if args.algo == 'ppo':
     assert args.num_processes * args.num_steps % args.batch_size == 0
@@ -38,7 +38,6 @@ if args.cuda:
 
 mt_env_id_dic_all = {
     'mt test pong':[
-        'PongNoFrameskip-v4',
         'BreakoutNoFrameskip-v4',
         ],
     'mt high performance':[
@@ -309,12 +308,33 @@ def main():
             cpu_actions = action.data.squeeze(1).cpu().numpy()
 
             # Obser reward and next state
-            state, reward, done = envs.step(cpu_actions)
-            '''record the last 100 episodes rewards'''
-            episode_reward_rec += reward
-            episode_reward_rec = rec_last_100_epi_reward(episode_reward_rec,done)
+            if is_rec_raw_reward == True:
+                state, total_reward, done = envs.step(cpu_actions)
+                '''record the last 100 episodes rewards'''
+                #print (reward)
+                #print ("total reward is {}".format(type(total_reward))) 
+                reward = []
+                for x in total_reward:
+                    reward.append(x[0])
+                reward = np.array(reward)
+                #reward = total_reward[0]
+                raw_reward = []
+                for x in total_reward:
+                    raw_reward.append(x[1])
+                raw_reward = np.array(raw_reward)
+                episode_reward_rec += raw_reward
+                episode_reward_rec = rec_last_100_epi_reward(episode_reward_rec,done)
             
+            else:
+                state, reward, done = envs.step(cpu_actions)
+                '''record the last 100 episodes rewards'''
+                #print (reward)
             
+                episode_reward_rec += reward
+                episode_reward_rec = rec_last_100_epi_reward(episode_reward_rec,done)
+            
+
+
             reward = torch.from_numpy(np.expand_dims(np.stack(reward), 1)).float()
             '''reward is shape of process_num_total, not batch-size'''
             # print ((reward).size())
