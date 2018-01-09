@@ -116,6 +116,7 @@ class ClipRewardEnv(gym.RewardWrapper):
     def _reward(self, reward):
         """Bin reward to {+1, 0, -1} by its sign."""
         if is_rec_raw_reward == True:
+            assert np.sign(reward)== reward,("before is {}\t after is {}".format(reward,np.sign(reward)))
             return [np.sign(reward), reward]
         else:
             return np.sign(reward)

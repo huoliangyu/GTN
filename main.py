@@ -312,7 +312,7 @@ def main():
                 state, total_reward, done = envs.step(cpu_actions)
                 '''record the last 100 episodes rewards'''
                 #print (reward)
-                #print ("total reward is {}".format(type(total_reward))) 
+                # print ("total reward is {}".format((total_reward[:4,:]))) 
                 reward = []
                 for x in total_reward:
                     reward.append(x[0])

@@ -6,7 +6,7 @@ is_use_ppo =False
 debugging = 0
 
 gtn_M = 3 
-gtn_N =4 
+gtn_N =4
 
 hierarchical = 1
 
@@ -75,7 +75,8 @@ if is_use_ppo is False:
 else:
     log_interval = 10
     vis_interval = 10
-
+### is_use_mylti_feature : 0-->None, 1-->mul, 2-->layer_normal
+is_use_multi_feature = 2
 is_restore = False
 
 if debugging == 1:
